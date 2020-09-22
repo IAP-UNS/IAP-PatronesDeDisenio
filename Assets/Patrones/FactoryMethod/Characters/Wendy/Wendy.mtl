@@ -1,0 +1,35 @@
+# Blender3D MTL File: Wendy.blend
+# Material Count: 3
+newmtl Material.002_Mouth.pn_Mouth.png
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.512000 0.512000 0.512000
+Ks 0.250000 0.250000 0.250000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Mouth.png
+
+
+newmtl Material.001_Body.png_Body.png
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.512000 0.512000 0.512000
+Ks 0.250000 0.250000 0.250000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Body.png
+
+
+newmtl Material.003_Eyes.png_Eyes.png
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.512000 0.512000 0.512000
+Ks 0.250000 0.250000 0.250000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Eyes.png
+
+

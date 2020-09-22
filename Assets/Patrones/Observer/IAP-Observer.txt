@@ -1,0 +1,10 @@
+OBSERVER
+
+OPCIÓN SIN PATRÓN
+Cada usuario está todo el tiempo chequeando si hay una nueva noticia para actualizar el mensaje.
+Qué pasa si hay cientos de usuarios? Y si cada usuario está registrado a decenas de servicios de noticias?
+
+OPCIÓN CON PATRÓN
+Delegamos la función de avisar cuando hubo una nueva noticia a la clase Observable (Observada).
+Los usuarios Observers (observadores) serán notificados cuando haya una nueva noticia.
+

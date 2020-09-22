@@ -1,0 +1,35 @@
+# Blender3D MTL File: Stan.blend
+# Material Count: 3
+newmtl Material.001_Body_Body.png
+Ns 84.313725
+Ka 0.000000 0.000000 0.000000
+Kd 0.262144 0.262144 0.262144
+Ks 0.031250 0.031250 0.031250
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Body.png
+
+
+newmtl Material.002_Mout_Mouth.png
+Ns 84.313725
+Ka 0.000000 0.000000 0.000000
+Kd 0.262144 0.262144 0.262144
+Ks 0.031250 0.031250 0.031250
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Mouth.png
+
+
+newmtl Material.003_Eyes_Eyes.png
+Ns 84.313725
+Ka 0.000000 0.000000 0.000000
+Kd 0.262144 0.262144 0.262144
+Ks 0.031250 0.031250 0.031250
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Eyes.png
+
+

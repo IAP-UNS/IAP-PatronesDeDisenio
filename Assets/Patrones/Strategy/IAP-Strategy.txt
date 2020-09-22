@@ -1,0 +1,22 @@
+STRATEGY
+
+Este patrón se utiliza cuando tenemos distintos objetos y distintos comportamientos.
+Supongamos que tenemos una clase DataStorage que recibe un string en pantalla
+y se encarga de guardar dicha información y cargarla nuevamente.
+
+Podemos tener distintas formas de guardar y cargar la información, como por ejemplo:
+-Memoria local de la aplicación
+-Un archivo txt en disco, xml, json, etc.
+-Una base de datos local.
+-Una base de datos online.
+-Etc.
+
+OPCIÓN SIN PATRÓN
+Pareciera que tendría sentido crear una clase concreta para cada modo de guardado.
+
+Sin embargo, qué sucede si estamos utilizando un modo y queremos cambiar a otro?
+Qué sucede si queremos guardar en un archivo txt pero cargar la información de una base de datos?
+
+OPCIÓN CON PATRÓN
+El patrón Strategy delega cada comportamiento a una clase o interfaz diferente.
+De esta forma, una clase puede cambiar su comportamiento, o distintas clases pueden tener el mismo comportamiento.

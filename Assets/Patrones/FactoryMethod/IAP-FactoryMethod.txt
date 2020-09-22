@@ -1,0 +1,28 @@
+FACTORY METHOD
+
+OPCIÓN SIN PATRÓN
+La clase CharactersManager crea distintos tipos de personajes de tres formas distintas.
+En este caso los métodos son aleatórios, pero este proceso de selección podría ser computacionalmente muy costoso.
+Es importante notar la duplicación de código.
+
+¿Qué sucede si queremos crear nuevos personajes?
+¿Qué sucede si queremos incluir una nueva estrategia para crear personajes?
+
+OPCIÓN CON PATRÓN
+Supongamos que queremos crear un personaje nuevo cada 1 segundo, pero al characterManager no le interesa qué personaje se creó.
+Delegamos esta funcionalidad a distintas fábricas de personajes.
+
+Solo hay que cambiar de fábrica para crear distintos tipos de personajes.
+El CharacterManager no sabe cuál fábrica está activa y no le importa.
+
+¿Qué sucede si queremos agregar un nuevo personaje adulto? ¿O un niño? ¿Cuántas clases hay que modificar?
+
+********************************************************************************
+
+ABSTRACT FACTORY
+
+El Abstract Factory es otro patrón de diseño que "hereda" de este.
+Se utiliza para fabricar grupos de productos relacionados de alguna forma.
+
+Un buen video: https://www.youtube.com/watch?v=v-GiuMmsXj4
+

@@ -1,0 +1,29 @@
+STATE
+
+Este ejemplo presenta el cambio de menú de un Smartwatch.
+En todo momento, el usuario puede interactuar con el Smartwatch de 4 formas:
+-Con el botón inferior Home. Esta acción envía al Home sin importar donde se esté.
+-Tocando en la pantalla. Esta acción simula realizar la acción correspondiente al menú actual.
+-Tocando a la izquierda de la pantalla. Esta acción cambia al menú anterior.
+-Tocando a la derecha de la pantalla. Esta acción cambia al menú siguiente.
+
+OPCIÓN SIN PATRÓN
+La clase SmartwatchController se encarga de controlar lo que sucede en cada menú. 
+Esta clase mantiene un entero para indicar el estado actual del reloj.
+Cada vez que se presiona un botón, esta clase realiza las acciones correspondientes.
+
+Analizar:
+	¿Qué sucede si queremos agregar un nuevo menú/estado?
+	¿Qué sucede si queremos cambiar el orden de los menúes?
+	¿Qué sucede si queremos que algún menú particular realice alguna nueva acción?
+
+
+OPCIÓN CON PATRÓN
+La interfaz ISmartwatchState representa cada menú/estado en el que se encontrará el Smartwatch.
+Ahora la clase SWControllerWithState maneja el Smartwatch, 
+pero los distintos estados no está representados con números enteros.
+
+Analizar:
+	¿Qué sucede si queremos agregar un nuevo menú/estado?
+	¿Qué sucede si queremos cambiar el orden de los menúes?
+	¿Qué sucede si queremos que algún menú particular realice alguna nueva acción?

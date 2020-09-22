@@ -1,0 +1,21 @@
+ADAPTER
+
+Lo utilizamos cuando tenemos interfaces incompatibles.
+Queremos usar una Interfaz que no tiene la forma que nosotros queremos.
+En este caso, tenemos que usar un Adapter en el medio.
+Nos permite usar la cosa que queremos usar (una Interfaz nueva o diferente) 
+pero a través de la Interfaz que ya tenemos.
+
+
+Diagrama de clases:
+https://drive.google.com/file/d/1PtMc2eKo0PrBU7xr1yXyYKCVkwIrT7aj/view?usp=sharing
+
+
+Video que explica brevemente las diferencias entre:
+-Decorator
+-Facade
+-Adapter
+-Proxy
+-Bridge
+https://www.youtube.com/watch?v=lPsSL6_7NBg&list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc&index=12&ab_channel=ChristopherOkhravi
+
