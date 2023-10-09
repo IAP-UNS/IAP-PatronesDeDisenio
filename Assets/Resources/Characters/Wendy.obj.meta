@@ -10,6 +10,7 @@ ModelImporter:
     2100000: Material.001_Body.png_Body.png
     2100002: Material.003_Eyes.png_Eyes.png
     2100004: Material.002_Mouth.pn_Mouth.png
+    2100006: defaultMat
     2300000: default
     3300000: default
     4300000: default

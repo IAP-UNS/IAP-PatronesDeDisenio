@@ -11,7 +11,7 @@ public class CharactersManagerFactoryMethod : MonoBehaviour
     {
         charFactory = new RandomCharacterFactory();
         //llama a la función CreateNewCharacter cada 1 segundo.
-        InvokeRepeating("CreateNewCharacter", 0, 0.1f);
+        InvokeRepeating("CreateNewCharacter", 0, 1f);
     }
 
     void CreateNewCharacter()
