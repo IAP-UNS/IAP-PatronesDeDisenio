@@ -4,38 +4,40 @@ using UnityEngine;
 
 public class CharactersManagerFactoryMethod : MonoBehaviour
 {
-    private ICharacterFactory charFactory;
+    private CharacterCreator characterCreator;
 
     // Start is called before the first frame update
     void Start()
     {
-        charFactory = new RandomCharacterFactory();
+        characterCreator = new CharacterCreator();
+        characterCreator.SetCharacterFactory(new RandomCharacterFactory());
+        
         //llama a la función CreateNewCharacter cada 1 segundo.
         InvokeRepeating("CreateNewCharacter", 0, 1f);
     }
 
     void CreateNewCharacter()
     {
-        charFactory.CreateNewCharacter();
+        characterCreator.CreateNewCharacter();
     }
 
     public void ActivateRandomCharactersFactory()
     {
-        charFactory = new RandomCharacterFactory();
+        characterCreator.SetCharacterFactory(new RandomCharacterFactory());
     }
 
     public void ActivateAdultCharactersFactory()
     {
-        charFactory = new AdultsCharacterFactory();
+        characterCreator.SetCharacterFactory(new AdultsCharacterFactory());
     }
 
     public void ActivateKidCharactersFactory()
     {
-        charFactory = new KidCharacterFactory();
+        characterCreator.SetCharacterFactory(new KidCharacterFactory());
     }
 
     public void ActivateNonHumanCharactersFactory()
     {
-        charFactory = new NonHumanCharacterFactory();
+        characterCreator.SetCharacterFactory(new NonHumanCharacterFactory());
     }
 }
